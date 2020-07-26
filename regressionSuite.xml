@@ -4,8 +4,6 @@
 	<test name="RegressionTest2" preserve-order="false">
 		<classes>
 			<class name="tests.AddProductReviewTest" />
-<!--			<class name="tests.UserRegistrationTestWithJavaFaker" />-->
-<!--			<class name="tests.ProductHoverMenuTest" />-->
 		</classes>
 	</test>
 </suite> 
