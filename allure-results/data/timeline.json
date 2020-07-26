@@ -1,0 +1,237 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Ahmads-MacBook-Pro.local",
+    "children" : [ {
+      "name" : "62526@Ahmads-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "UserCanRegisterSuccssfully",
+        "uid" : "9a089e085a9f1637",
+        "parentUid" : "9f97f1ace369a5e3fdc0200046db6835",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595779006928,
+          "stop" : 1595779012522,
+          "duration" : 5594
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "RegisteredUserCanLogin",
+        "uid" : "3f5c9d8ce9b715d7",
+        "parentUid" : "9f97f1ace369a5e3fdc0200046db6835",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595779020290,
+          "stop" : 1595779023657,
+          "duration" : 3367
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "RegisteredUserCanLogout",
+        "uid" : "229ee41a2c0f3a03",
+        "parentUid" : "9f97f1ace369a5e3fdc0200046db6835",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595779017674,
+          "stop" : 1595779020277,
+          "duration" : 2603
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "9f97f1ace369a5e3fdc0200046db6835"
+    }, {
+      "name" : "61886@Ahmads-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "UserCanRegisterSuccssfully",
+        "uid" : "85cafaf149d9f95d",
+        "parentUid" : "051cd5b2b9cd2e4cb5d294ae1b441743",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595777740871,
+          "stop" : 1595777745948,
+          "duration" : 5077
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "RegisteredUserCanLogin",
+        "uid" : "1aa8d0c124e72af4",
+        "parentUid" : "051cd5b2b9cd2e4cb5d294ae1b441743",
+        "status" : "broken",
+        "time" : {
+          "start" : 1595777752348,
+          "stop" : 1595777812458,
+          "duration" : 60110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "RegisteredUserCanLogout",
+        "uid" : "b01a72e020634c69",
+        "parentUid" : "051cd5b2b9cd2e4cb5d294ae1b441743",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595777751104,
+          "stop" : 1595777752336,
+          "duration" : 1232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "051cd5b2b9cd2e4cb5d294ae1b441743"
+    }, {
+      "name" : "65624@Ahmads-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Runs Cucumber Feature",
+        "uid" : "6a77ca117b22c46f",
+        "parentUid" : "25faab5c9617d4029671215aaa1ba3b9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1595785462894,
+          "stop" : 1595785462897,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "tearDownClass",
+        "uid" : "fd351c96c2984b90",
+        "parentUid" : "25faab5c9617d4029671215aaa1ba3b9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1595785462911,
+          "stop" : 1595785462912,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "setUpClass",
+        "uid" : "47181e6f7094ea07",
+        "parentUid" : "25faab5c9617d4029671215aaa1ba3b9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1595785462735,
+          "stop" : 1595785462738,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "25faab5c9617d4029671215aaa1ba3b9"
+    }, {
+      "name" : "63493@Ahmads-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "RegisteredUserCanLogin",
+        "uid" : "79e43b14ea438cd0",
+        "parentUid" : "82829ffd491e3e6b6474704a4c65d24f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1595781017686,
+          "stop" : 1595781034383,
+          "duration" : 16697
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "screenshotOnFailure",
+        "uid" : "32975548eaf84cce",
+        "parentUid" : "82829ffd491e3e6b6474704a4c65d24f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1595781039471,
+          "stop" : 1595781039472,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "RegisteredUserCanLogout",
+        "uid" : "515db651aa13aca4",
+        "parentUid" : "82829ffd491e3e6b6474704a4c65d24f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595781016368,
+          "stop" : 1595781017678,
+          "duration" : 1310
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "UserCanRegisterSuccssfully",
+        "uid" : "613fc301544a6414",
+        "parentUid" : "82829ffd491e3e6b6474704a4c65d24f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595781006053,
+          "stop" : 1595781011219,
+          "duration" : 5166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "82829ffd491e3e6b6474704a4c65d24f"
+    }, {
+      "name" : "62955@Ahmads-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "RegisteredUserCanLogout",
+        "uid" : "4d6bd6894733a008",
+        "parentUid" : "644629c131ffa1397773e0f3a824d7a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595780204523,
+          "stop" : 1595780207143,
+          "duration" : 2620
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "RegisteredUserCanLogin",
+        "uid" : "88abb48039b3ece5",
+        "parentUid" : "644629c131ffa1397773e0f3a824d7a6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1595780207155,
+          "stop" : 1595780267435,
+          "duration" : 60280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "UserCanRegisterSuccssfully",
+        "uid" : "cd86b7e0d8f8ba12",
+        "parentUid" : "644629c131ffa1397773e0f3a824d7a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595780193452,
+          "stop" : 1595780199367,
+          "duration" : 5915
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "644629c131ffa1397773e0f3a824d7a6"
+    } ],
+    "uid" : "89873ddc7dfae369aa84800fe420325d"
+  } ]
+}

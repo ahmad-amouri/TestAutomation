@@ -1,0 +1,71 @@
+[ {
+  "uid" : "fd351c96c2984b90",
+  "name" : "tearDownClass",
+  "time" : {
+    "start" : 1595785462911,
+    "stop" : 1595785462912,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "613fc301544a6414",
+  "name" : "UserCanRegisterSuccssfully",
+  "time" : {
+    "start" : 1595781006053,
+    "stop" : 1595781011219,
+    "duration" : 5166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a77ca117b22c46f",
+  "name" : "Runs Cucumber Feature",
+  "time" : {
+    "start" : 1595785462894,
+    "stop" : 1595785462897,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "515db651aa13aca4",
+  "name" : "RegisteredUserCanLogout",
+  "time" : {
+    "start" : 1595781016368,
+    "stop" : 1595781017678,
+    "duration" : 1310
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79e43b14ea438cd0",
+  "name" : "RegisteredUserCanLogin",
+  "time" : {
+    "start" : 1595781017686,
+    "stop" : 1595781034383,
+    "duration" : 16697
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "47181e6f7094ea07",
+  "name" : "setUpClass",
+  "time" : {
+    "start" : 1595785462735,
+    "stop" : 1595785462738,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "32975548eaf84cce",
+  "name" : "screenshotOnFailure",
+  "time" : {
+    "start" : 1595781039471,
+    "stop" : 1595781039472,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

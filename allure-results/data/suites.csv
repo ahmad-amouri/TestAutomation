@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Jul 26 19:30:16 AST 2020","Sun Jul 26 19:30:17 AST 2020","1310","Regression Suite","Regression Test","tests.UserRegistrationTest","tests.UserRegistrationTest","RegisteredUserCanLogout","RegisteredUserCanLogout",""
+"skipped","Sun Jul 26 20:44:22 AST 2020","Sun Jul 26 20:44:22 AST 2020","3","Surefire suite","Surefire test","runner.TestRunner","runner.TestRunner","feature","Runs Cucumber Feature",""
+"broken","Sun Jul 26 19:30:17 AST 2020","Sun Jul 26 19:30:34 AST 2020","16697","Regression Suite","Regression Test","tests.UserRegistrationTest","tests.UserRegistrationTest","RegisteredUserCanLogin","RegisteredUserCanLogin",""
+"broken","Sun Jul 26 20:44:22 AST 2020","Sun Jul 26 20:44:22 AST 2020","3","Surefire suite","Surefire test","runner.TestRunner","runner.TestRunner","setUpClass","setUpClass",""
+"broken","Sun Jul 26 19:30:39 AST 2020","Sun Jul 26 19:30:39 AST 2020","1","Regression Suite","Regression Test","tests.UserRegistrationTest","tests.UserRegistrationTest","screenshotOnFailure","screenshotOnFailure",""
+"passed","Sun Jul 26 19:30:06 AST 2020","Sun Jul 26 19:30:11 AST 2020","5166","Regression Suite","Regression Test","tests.UserRegistrationTest","tests.UserRegistrationTest","UserCanRegisterSuccssfully","UserCanRegisterSuccssfully",""
+"broken","Sun Jul 26 20:44:22 AST 2020","Sun Jul 26 20:44:22 AST 2020","1","Surefire suite","Surefire test","runner.TestRunner","runner.TestRunner","tearDownClass","tearDownClass",""

@@ -9,8 +9,8 @@ Feature: User Registration
 
     Examples:
       | firstname | lastname | email | password |
-      | ahmed | mohamed | ahmad7111@gmail.com | 12345678 |
-      | ahmed | mohamed | ahmad8111@gmail.com | 12345678 |
+      | ahmed | mohamed | ahmad71111@gmail.com | 12345678 |
+      | ahmed | mohamed | ahmad81111@gmail.com | 12345678 |
   @scenario2
   Scenario Template: User Registrationa2
     Given the user in the home pageaa
@@ -20,5 +20,5 @@ Feature: User Registration
 
     Examples:
       | firstname | lastname | email | password |
-      | ahmed | mohamed | ahmad9111@gmail.com | 12345678 |
-      | ahmed | mohamed | ahmad10111@gmail.com | 12345678 |
+      | ahmed | mohamed | ahmad91111@gmail.com | 12345678 |
+      | ahmed | mohamed | ahmad101111@gmail.com | 12345678 |
