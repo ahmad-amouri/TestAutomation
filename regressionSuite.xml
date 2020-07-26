@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Regression Suite">
 	<parameter name="browser" value="chrome-headless" />
-	<test name="RegressionTest" preserve-order="false">
+	<test name="RegressionTest2" preserve-order="false">
 		<classes>
 			<class name="tests.AddProductReviewTest" />
 <!--			<class name="tests.UserRegistrationTestWithJavaFaker" />-->
