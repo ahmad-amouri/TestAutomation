@@ -3,8 +3,7 @@
 	<parameter name="browser" value="chrome" />
 	<test name="RegressionTest1" preserve-order="false">
 		<classes>
-			<class name="tests.AddProductToShoppingCartTest" />
-			<class name="tests.AddProductToWishListTest" />
+			<class name="tests.UserRegistrationTest" />
 		</classes>
 	</test>
 </suite> 
