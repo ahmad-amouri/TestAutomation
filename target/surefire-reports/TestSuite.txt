@@ -1,0 +1,301 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 75, Failures: 26, Errors: 0, Skipped: 48, Time elapsed: 15.361 s <<< FAILURE! - in TestSuite
+UserCanSelectSubCategoryFromMainMenu(tests.ProductHoverMenuTest)  Time elapsed: 0.208 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@2f98635e]}
+	at tests.ProductHoverMenuTest.UserCanSelectSubCategoryFromMainMenu(ProductHoverMenuTest.java:16)
+Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@2f98635e]}
+	at tests.ProductHoverMenuTest.UserCanSelectSubCategoryFromMainMenu(ProductHoverMenuTest.java:16)
+Caused by: org.openqa.selenium.WebDriverException: 
+java.lang.reflect.InvocationTargetException
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at tests.ProductHoverMenuTest.UserCanSelectSubCategoryFromMainMenu(ProductHoverMenuTest.java:16)
+Caused by: java.lang.reflect.InvocationTargetException
+	at tests.ProductHoverMenuTest.UserCanSelectSubCategoryFromMainMenu(ProductHoverMenuTest.java:16)
+Caused by: org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+*** Element info: {Using=link text, value=Computers}
+	at tests.ProductHoverMenuTest.UserCanSelectSubCategoryFromMainMenu(ProductHoverMenuTest.java:16)
+
+screenshotOnFailure(tests.ProductHoverMenuTest)  Time elapsed: 0.242 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+
+UserCanSearchForProducts(tests.SearchProductTest)  Time elapsed: 0.025 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+*** Element info: {Using=id, value=small-searchterms}
+	at tests.SearchProductTest.UserCanSearchForProducts(SearchProductTest.java:20)
+
+screenshotOnFailure(tests.SearchProductTest)  Time elapsed: 0.037 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+
+UserCanUseContactUs(tests.ContactUsTest)  Time elapsed: 0.018 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+	at tests.ContactUsTest.UserCanUseContactUs(ContactUsTest.java:21)
+
+screenshotOnFailure(tests.ContactUsTest)  Time elapsed: 0.031 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+
+UserCanRegisterSuccssfully(tests.AddProductReviewTest)  Time elapsed: 0.018 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+*** Element info: {Using=css selector, value=a.ico-register}
+	at tests.AddProductReviewTest.UserCanRegisterSuccssfully(AddProductReviewTest.java:36)
+
+screenshotOnFailure(tests.AddProductReviewTest)  Time elapsed: 0.045 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+
+UserCanCompareProducts(tests.AddProductToCompareTest)  Time elapsed: 0.014 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+*** Element info: {Using=id, value=small-searchterms}
+	at tests.AddProductToCompareTest.UserCanCompareProducts(AddProductToCompareTest.java:32)
+
+screenshotOnFailure(tests.AddProductToCompareTest)  Time elapsed: 0.036 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+
+UserCanSearchForProductsWithAutoSuggest(tests.AddProductToShoppingCartTest)  Time elapsed: 0.013 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+*** Element info: {Using=id, value=small-searchterms}
+	at tests.AddProductToShoppingCartTest.UserCanSearchForProductsWithAutoSuggest(AddProductToShoppingCartTest.java:20)
+
+screenshotOnFailure(tests.AddProductToShoppingCartTest)  Time elapsed: 0.025 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+
+UserCanSearchForProductsWithAutoSuggest(tests.AddProductToWishListTest)  Time elapsed: 0.016 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+*** Element info: {Using=id, value=small-searchterms}
+	at tests.AddProductToWishListTest.UserCanSearchForProductsWithAutoSuggest(AddProductToWishListTest.java:20)
+
+screenshotOnFailure(tests.AddProductToWishListTest)  Time elapsed: 0.036 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+
+UserCanCanChangeCurrency(tests.ChangeCurrencyTest)  Time elapsed: 0.017 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+*** Element info: {Using=id, value=customerCurrency}
+	at tests.ChangeCurrencyTest.UserCanCanChangeCurrency(ChangeCurrencyTest.java:21)
+
+screenshotOnFailure(tests.ChangeCurrencyTest)  Time elapsed: 0.033 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+
+UserCanRegisterSuccssfully(tests.EmailFriendTest)  Time elapsed: 0.01 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+*** Element info: {Using=css selector, value=a.ico-register}
+	at tests.EmailFriendTest.UserCanRegisterSuccssfully(EmailFriendTest.java:28)
+
+screenshotOnFailure(tests.EmailFriendTest)  Time elapsed: 0.022 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+
+UserCanSearchForProductsWithAutoSuggest(tests.GuestCheckoutProductFromCartTest)  Time elapsed: 0.012 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+*** Element info: {Using=id, value=small-searchterms}
+	at tests.GuestCheckoutProductFromCartTest.UserCanSearchForProductsWithAutoSuggest(GuestCheckoutProductFromCartTest.java:25)
+
+screenshotOnFailure(tests.GuestCheckoutProductFromCartTest)  Time elapsed: 0.024 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+
+UserCanRegisterSuccssfully(tests.MyAccountTest)  Time elapsed: 0.024 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+*** Element info: {Using=css selector, value=a.ico-register}
+	at tests.MyAccountTest.UserCanRegisterSuccssfully(MyAccountTest.java:28)
+
+screenshotOnFailure(tests.MyAccountTest)  Time elapsed: 0.046 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+
+UserCanRegisterSuccssfully(tests.RegisteredUserCheckoutProductTest)  Time elapsed: 0.037 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+*** Element info: {Using=css selector, value=a.ico-register}
+	at tests.RegisteredUserCheckoutProductTest.UserCanRegisterSuccssfully(RegisteredUserCheckoutProductTest.java:39)
+
+screenshotOnFailure(tests.RegisteredUserCheckoutProductTest)  Time elapsed: 0.057 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+
+UserCanRegisterSuccssfully(tests.UserRegistrationTest)  Time elapsed: 0.019 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+*** Element info: {Using=css selector, value=a.ico-register}
+	at tests.UserRegistrationTest.UserCanRegisterSuccssfully(UserRegistrationTest.java:22)
+
+screenshotOnFailure(tests.UserRegistrationTest)  Time elapsed: 0.038 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:58645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2178442b039ee18b470c8b437f0723a3
+
