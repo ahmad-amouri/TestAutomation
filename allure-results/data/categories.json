@@ -1,0 +1,73 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "RegisteredUserCanLogin",
+        "uid" : "8ee770d6a7d145b3",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1595781017686,
+          "stop" : 1595781034383,
+          "duration" : 16697
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "tearDownClass",
+        "uid" : "8778a7222085c15c",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1595785462911,
+          "stop" : 1595785462912,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    }, {
+      "name" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=84.0.4147.89)\nBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'\nSystem info: host: 'Ahmads-MacBook-Pro.local', ip: '2001:16a2:8870:ed00:9d68:bd2e:966e:ede2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.14 (be04594a2b841..., userDataDir: /var/folders/5t/_vmmp4h9367...}, goog:chromeOptions: {debuggerAddress: localhost:60072}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: b369aff2341e14632a4d200104e9bb35",
+      "children" : [ {
+        "name" : "screenshotOnFailure",
+        "uid" : "b4147ad2be112cbd",
+        "parentUid" : "03b593a4395236fbf6345566ef1f8090",
+        "status" : "broken",
+        "time" : {
+          "start" : 1595781039471,
+          "stop" : 1595781039472,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "03b593a4395236fbf6345566ef1f8090"
+    }, {
+      "name" : "Unrecognized plugin: io.qameta.allure.cucumber4jvm.AllureCucumber4Jvm",
+      "children" : [ {
+        "name" : "setUpClass",
+        "uid" : "3e3d8f42f2ef3fc6",
+        "parentUid" : "3dbcadf5796b19182ef423561770eaf9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1595785462735,
+          "stop" : 1595785462738,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3dbcadf5796b19182ef423561770eaf9"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
