@@ -1,0 +1,31 @@
+[ {
+  "uid" : "ec9094463b52f793",
+  "name" : "screenshotOnFailure",
+  "time" : {
+    "start" : 1595871674987,
+    "stop" : 1595871674988,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b926a0a587c2cc03",
+  "name" : "stopDriver",
+  "time" : {
+    "start" : 1595871675191,
+    "stop" : 1595871675191,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ee61d7d6a23efd9c",
+  "name" : "Runs Cucumber Feature",
+  "time" : {
+    "start" : 1595871655880,
+    "stop" : 1595871669774,
+    "duration" : 13894
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

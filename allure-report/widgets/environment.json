@@ -1,0 +1,10 @@
+[ {
+  "values" : [ "QA" ],
+  "name" : "Stand"
+}, {
+  "values" : [ "78.0.2" ],
+  "name" : "Browser.Version"
+}, {
+  "values" : [ "Firefox" ],
+  "name" : "Browser"
+} ]
