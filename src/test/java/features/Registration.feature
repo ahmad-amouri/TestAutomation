@@ -9,16 +9,16 @@ Feature: User Registration
 
     Examples:
       | firstname | lastname | email | password |
-      | ahmed | mohamed | ahmad7111111@gmail.com | 12345678 |
-      | ahmed | mohamed | ahmad8111111@gmail.com | 12345678 |
-  @scenario2
-  Scenario Template: User Registrationa2
-    Given the user in the home pageaa
-    When I click on register linkaa
-    And I entereea "<firstname>" , "<lastname>" , "<email>" , "<password>"
-    Then The registration page displayed successfullyaa
-
-    Examples:
-      | firstname | lastname | email | password |
-      | ahmed | mohamed | ahmad9111111@gmail.com | 12345678 |
-      | ahmed | mohamed | ahmad10111111@gmail.com | 12345678 |
+      | ahmed | mohamed | ahmad77@gmail.com | 12345678 |
+      | ahmed | mohamed | ahmad88@gmail.com | 12345678 |
+#  @scenario2
+#  Scenario Template: User Registrationa2
+#    Given the user in the home pageaa
+#    When I click on register linkaa
+#    And I entereea "<firstname>" , "<lastname>" , "<email>" , "<password>"
+#    Then The registration page displayed successfullyaa
+#
+#    Examples:
+#      | firstname | lastname | email | password |
+#      | ahmed | mohamed | ahmad9111111@gmail.com | 12345678 |
+#      | ahmed | mohamed | ahmad10111111@gmail.com | 12345678 |

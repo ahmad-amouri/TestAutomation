@@ -1,9 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Regression Suite">
-	<parameter name="browser" value="chrome" />
-	<parameter name="testUrl" value="${TestUrl}" />
-	<parameter name="runEnv" value="${Env}" />
-	<parameter name="buildUrl" value="${BuildNo}" />
 	<test name="Regression" preserve-order="false">
 		<classes>
 			<class name="features.Registration.feature" />
