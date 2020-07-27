@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Mon Jul 27 20:41:14 AST 2020","Mon Jul 27 20:41:14 AST 2020","1","Surefire suite","Surefire test","runner.TestRunner","runner.TestRunner","screenshotOnFailure","screenshotOnFailure",""
-"broken","Mon Jul 27 20:41:15 AST 2020","Mon Jul 27 20:41:15 AST 2020","0","Surefire suite","Surefire test","runner.TestRunner","runner.TestRunner","stopDriver","stopDriver",""
-"broken","Mon Jul 27 20:40:55 AST 2020","Mon Jul 27 20:41:09 AST 2020","13894","Surefire suite","Surefire test","runner.TestRunner","runner.TestRunner","feature","Runs Cucumber Feature",""
