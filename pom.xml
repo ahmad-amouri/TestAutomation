@@ -48,6 +48,9 @@
 						<source>8</source>
 						<target>8</target>
 					</configuration>
+					<configuration>
+						<reportDirectory>allure-report</reportDirectory>
+					</configuration>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
